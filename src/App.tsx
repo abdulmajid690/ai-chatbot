@@ -106,7 +106,7 @@ function App() {
   };
 
   return (
-    <div className="flex h-screen bg-background text-foreground overflow-hidden">
+    <div className="flex h-screen bg-background text-foreground overflow-auto">
       <Sidebar
         conversations={conversations}
         currentConversationId={currentConversationId}
